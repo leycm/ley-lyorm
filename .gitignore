@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Editors sources
+*.iml
+*.iws
+out/
+.vscode/
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Generated sources
+**/generated/

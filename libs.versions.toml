@@ -1,0 +1,13 @@
+[plugins]
+shadow = { id = "com.gradleup.shadow", version = "9.0.0" }
+lombok = { id = "io.freefair.lombok", version = "8.14.2" }
+
+[libraries]
+mysql = { group = "mysql", name = "mysql-connector-java", version = "8.0.33"}
+hikaricp = { group = "com.zaxxer", name = "HikariCP", version = "5.1.0"}
+jetanno = { group = "org.jetbrains", name = "annotations", version = "24.0.1"}
+slf4j = { group = "org.slf4j", name = "slf4j-api", version = "2.0.9" }
+logback = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.11" }
+
+[bundles]
+database = ["mysql", "hikaricp"]
